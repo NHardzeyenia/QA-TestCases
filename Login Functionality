@@ -1,0 +1,6 @@
+|--------------|------------------------------|-----------------------------------------|-------------------------------------------------------------------------------------|--------------------------------------------------|--------|
+| ID           | Title                        | Preconditions                           | Steps                                                                               | Expected Result                                  | Status |
+| TC-LOGIN-001 | Login with valid credentials | User registered with email and password | 1.Go to login page 2.Enter valid email 3.Enter valid passwordт 4.Click Login        | User is logged in and redirected to the homepage | Pass   |
+| TC-LOGIN-002 | Invalid password             | User registered with email and password | 1.Go to login pageт 2.Enter valid email 3.Enter invalid password 4.Click Login      | Error message is shown                           | Pass   |
+| TC-LOGIN-003 | Invalid email                | User registered with email and password | 1.Go to login page 2.Enter invalid email 3.Enter valid passwordт 4.Click Login      | Error message is shown                           | Pass   |
+                
